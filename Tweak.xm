@@ -16,6 +16,7 @@
 		%orig(arg1, req, arg3, arg4, arg5, arg6);
 
 		if (urlStartsWithFile) {
+			// restore original file:// URL
 			[req setURL:originalUrl];
 		}
 	}
