@@ -55,7 +55,6 @@ NS_INLINE BOOL fakeUrlIfFileProtocol(NSMutableURLRequest *request) {
 
 %group BrowserControllerBugFix
     NSString* badURL = @"file://";
-    NSURL* goodURL_ = [[NSURL alloc] initWithString: @"file:///"];
     NSString* goodURL = @"file:///";
 
     %hook BrowserController        
