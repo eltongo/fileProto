@@ -1,7 +1,7 @@
 Package: com.eltongoci.fileproto
 Name: fileProto
 Depends: mobilesubstrate
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Description: Enable file:// urls for Mobile Safari.
 Maintainer: EltonG
