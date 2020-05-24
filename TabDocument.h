@@ -3,6 +3,9 @@
 // iOS 8.4 and iOS 10 method definitions were manually added (i.e. not generated)
 @interface TabDocument 
 
+// iOS 13
+- (void)_internalWebView: (id) webview decidePolicyForNavigationAction: (id) action preferences: (id) prefs decisionHandler: (id) handler;
+
 // iOS 10
 - (void)webView: (id) webview decidePolicyForNavigationAction: (id) action decisionHandler: (id) handler;
 
